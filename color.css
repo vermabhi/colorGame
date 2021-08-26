@@ -1,0 +1,76 @@
+body {
+    background-color: #232323;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    text-transform: uppercase;
+    font-family: "Montserrat", "Avenir";
+    line-height: 1.1;
+    font-weight: normal;
+    padding: 20px 0;
+    margin: 0 0;
+}
+
+#pickedColor {
+    font-size: 200%;
+}
+
+p {
+    margin: 0;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+#container {
+    max-width: 600px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 2% auto;
+}
+
+.square {
+    background-color: violet;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    transition: background-color 0.6s;
+    border-radius: 15%;
+}
+
+#strip {
+    background-color: white;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.selected {
+    background-color: steelblue;
+    color: white;
+}
+
+button{
+    border: none;
+    background: none;
+    height: 100%;
+    text-transform: uppercase;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: all 0.3s;
+    font-size: inherit;
+}
+
+button:hover{
+    color: white;
+    background: steelblue;
+}
